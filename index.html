@@ -1,10 +1,94 @@
----
-title: 首頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首頁</title>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <header class="position-sticky top-0 start-0 bg-white z-500">
+  <nav class="navbar navbar-expand-lg navbar-light nav border">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand text-primary position-lg-absolute top-50 start-50 translate-middle-lg fs-4" href="./index.html">EXHIBINECTION</a>
+      <div class="position-relative link-black order-lg-3">
+        <a class="link-dark ps-4" data-bs-toggle="offcanvas" href="#cartPage" role="button">
+          <span class="material-icons">
+            confirmation_number
+          </span>
+          <span class="position-absolute top-0 translate-middle badge bg-secondary fs-xs">3</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex justify-content-md-end w-100 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="header-banner background-fixed">
+  <div class="container h-100">
+    <div class="row align-items-end align-items-md-center h-100 pb-12 pb-md-0">
+      <div class="col-md-11 offset-md-1">
+        <div class="title">
+          <h2 class="fs-6 fw-bold text-white mb-1">台北當代藝術展</h2>
+          <h3 class="fs-3 fw-bold text-white mb-1">01 JUN - 31 OCT</h3>
+          <button class="btn btn-secondary px-6 me-1">購買票券</button>
+          <button class="btn btn-outline-light px-6">詳細資訊</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="d-flex justify-content-center border">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">音樂</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">戲劇</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./design.html">設計</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">藝術</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">美食</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">旅遊</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">電影</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">親子</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">期間設定</a>
+    </li>
+  </ul>
+</nav>
+    
 <main class="container pt-xl">
   <!-- popular -->
   <section class="mb-xl">
@@ -136,3 +220,38 @@ current: index
     </li>
   </ul>
 </main>
+    <footer>
+      <div class="footer-banner pb-ml">
+        <div class="container">
+          <h2 class="text-white fs-6 fw-bold mb-s">想收到展覽的最新消息嗎？<br>快訂閱我們！</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="輸入您的電子信箱" aria-describedby="button-addon2">
+                <button class="btn btn-secondary py-xs px-l" type="button" id="button-addon2">訂閱</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container nav d-flex justify-content-between">
+        <div class="d-flex align-items-center py-m">
+          <h3 class="me-2"><a href="index.html" class="fs-4 text-black">EXHIBINECTION</a></h3>
+          <span class="fs-2">© 2020. All Rights Reserved.</span>
+        </div>
+        <ul class="nav py-m">
+          <li class="nav-item">
+            <a class="nav-link px-s" aria-current="page" href="#">Sign in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-s" href="#">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
