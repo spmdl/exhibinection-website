@@ -1,0 +1,117 @@
+// Color system
+
+$gray-100: #EFEFEF;
+$gray-200: #CED4DA;
+$gray-300: #6C757D;
+$gray-400: #212529;
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+) !default;
+
+// Color system
+$primary:   #630834;
+$secondary: #E31277;
+$danger:    #190014CC;
+$info:      #ffffff;
+$black:     #000000;
+$white:     #ffffff; 
+$gray:      #707070;
+$light:       $gray-100 !default;
+$dark:        $gray-400 !default;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  // "info":       $info,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "white":      $white,
+  "black":      $black
+) !default;
+
+// Spacing
+$spacers: (
+  "0":   0,
+  "xxs":  .25rem,  // 4
+  "xs":   .75rem,  // 12
+  "s":   .875rem,  // 14
+  "m":   1.25rem,  // 20
+  "ml":  2.25rem,  // 36
+  "l":   3.25rem,  // 52
+  "xl":  3.75rem,  // 60
+  "1":   .5rem,    // 8
+  "2":   1rem,     // 16
+  "3":   1.5rem,   // 24
+  "4":   2rem,     // 32
+  "5":   2.5rem,   // 40
+  "6":   3rem,     // 48
+  "7":   4rem,     // 64
+) !default;
+
+$font-family-lato:                 'Lato', sans-serif;
+$font-family-roboto:               'Roboto', monospace;
+
+$font-sizes: (
+  "s":   .875rem,   // 14
+  "m":   1.375rem,  // 22
+  "1":   .75rem,    // 12
+  "2":   1rem,      // 16
+  "3":   1.25rem,   // 20
+  "4":   1.5rem,    // 24
+  "5":   1.75rem,   // 28
+  "6":   2rem,      // 32
+  "7":   2.25rem,   // 36
+  "8":   2.5rem,    // 40
+) !default;
+
+// z-index
+$z-index: (
+  '0': 0,
+  '100': 1100,
+  '200': 1200,
+  '250': 1250,
+  '300': 1300,
+  '400': 1400,
+  '500': 1500,
+  '750': 1750,
+  'auto': 'auto',
+) !default;
+
+// link
+$link-color:                        $black !default;
+$link-decoration:                   none !default;
+
+// h1~h6
+$headings-font-weight:              400 !default;
+$headings-margin-bottom:            0!default;
+$headings-line-height:              1.5 !default;
+
+// Navbar
+$navbar-padding-y:                  .8125rem !default;
+$navbar-nav-link-padding-x:         1rem !default;
+$navbar-brand-padding-y:            0 !default;
+$nav-link-padding-y:                .875rem !default;
+$nav-link-color:                    $gray;
+
+// Button
+$btn-padding-y:                     .625rem !default;
+// $btn-padding-x:                     2rem !default;
+$btn-hover-bg-shade-amount:         30% !default;
+$btn-transition:                    color .22s ease-in-out, background-color .22s ease-in-out, border-color .22s ease-in-out, box-shadow .22s ease-in-out !default;
+
+// Input
+$input-border-color:                $white !default;
+$input-border-width:                1px !default;
+$input-placeholder-color:           $gray !default;
+
+// Card
+$card-title-spacer-y:               .25rem !default;
+
+// Badge
+$badge-border-radius:               100% !default;
+$badge-font-weight:                 400 !default;

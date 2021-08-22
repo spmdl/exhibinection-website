@@ -1,0 +1,57 @@
+$utilities: (
+  "position": (
+    responsive: true,
+    property: position,
+    values: static relative absolute fixed sticky
+  ),
+  "translate-middle": (
+    responsive: true,
+    property: transform,
+    class: translate-middle,
+    values: (
+      null: translate(-50%, -50%),
+      x: translateX(-50%),
+      y: translateY(-50%),
+    )
+  ),
+  "height": (
+    property: height,
+    class: h,
+    values: (
+      25: 25%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto,
+      s: 350px
+    )
+  ),
+  "font-weight": (
+    property: font-weight,
+    class: fw,
+    values: (
+      light: $font-weight-light,
+      lighter: $font-weight-lighter,
+      normal: $font-weight-normal,
+      medium: 500,
+      bold: $font-weight-bold,
+      bolder: $font-weight-bolder
+    )
+  ),
+  "z-index": (
+    responsive: true,
+    property: z-index,
+    class: z,
+    values: $z-index,
+  ),
+  "background-attachment": (
+    responsive: true,
+    property: background-attachment,
+    class: background,
+    values: (
+      scroll: scroll,
+      fixed: fixed,
+      local: local
+    ),
+  ),
+)
