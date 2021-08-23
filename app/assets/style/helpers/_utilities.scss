@@ -63,6 +63,13 @@ $utilities: (
     class: fs,
     values: $font-sizes
   ),
+  "overflow-x": (
+    responsive: true,
+    state: hover,
+    property: overflow-x,
+    class: overflow-x,
+    values: auto hidden visible scroll
+  ),
   "z-index": (
     responsive: true,
     property: z-index,
