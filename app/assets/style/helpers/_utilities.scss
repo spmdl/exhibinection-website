@@ -56,6 +56,13 @@ $utilities: (
       bolder: $font-weight-bolder
     )
   ),
+  "font-size": (
+    // rfs: true,
+    responsive: true,
+    property: font-size,
+    class: fs,
+    values: $font-sizes
+  ),
   "z-index": (
     responsive: true,
     property: z-index,
