@@ -10208,6 +10208,38 @@ fieldset:disabled .btn {
   visibility: hidden !important;
 }
 
+.overflow-x-auto {
+  overflow-x: auto !important;
+}
+
+.overflow-x-auto-hover:hover {
+  overflow-x: auto !important;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden !important;
+}
+
+.overflow-x-hidden-hover:hover {
+  overflow-x: hidden !important;
+}
+
+.overflow-x-visible {
+  overflow-x: visible !important;
+}
+
+.overflow-x-visible-hover:hover {
+  overflow-x: visible !important;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll !important;
+}
+
+.overflow-x-scroll-hover:hover {
+  overflow-x: scroll !important;
+}
+
 .z-0 {
   z-index: 0 !important;
 }
@@ -11396,6 +11428,30 @@ fieldset:disabled .btn {
   .text-s-center {
     text-align: center !important;
   }
+  .overflow-x-s-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-x-s-auto-hover:hover {
+    overflow-x: auto !important;
+  }
+  .overflow-x-s-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-s-hidden-hover:hover {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-s-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-x-s-visible-hover:hover {
+    overflow-x: visible !important;
+  }
+  .overflow-x-s-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-x-s-scroll-hover:hover {
+    overflow-x: scroll !important;
+  }
   .z-s-0 {
     z-index: 0 !important;
   }
@@ -12573,6 +12629,30 @@ fieldset:disabled .btn {
   }
   .text-sm-center {
     text-align: center !important;
+  }
+  .overflow-x-sm-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-x-sm-auto-hover:hover {
+    overflow-x: auto !important;
+  }
+  .overflow-x-sm-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-sm-hidden-hover:hover {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-sm-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-x-sm-visible-hover:hover {
+    overflow-x: visible !important;
+  }
+  .overflow-x-sm-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-x-sm-scroll-hover:hover {
+    overflow-x: scroll !important;
   }
   .z-sm-0 {
     z-index: 0 !important;
@@ -13752,6 +13832,30 @@ fieldset:disabled .btn {
   .text-md-center {
     text-align: center !important;
   }
+  .overflow-x-md-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-x-md-auto-hover:hover {
+    overflow-x: auto !important;
+  }
+  .overflow-x-md-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-md-hidden-hover:hover {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-md-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-x-md-visible-hover:hover {
+    overflow-x: visible !important;
+  }
+  .overflow-x-md-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-x-md-scroll-hover:hover {
+    overflow-x: scroll !important;
+  }
   .z-md-0 {
     z-index: 0 !important;
   }
@@ -14929,6 +15033,30 @@ fieldset:disabled .btn {
   }
   .text-lg-center {
     text-align: center !important;
+  }
+  .overflow-x-lg-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-x-lg-auto-hover:hover {
+    overflow-x: auto !important;
+  }
+  .overflow-x-lg-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-lg-hidden-hover:hover {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-lg-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-x-lg-visible-hover:hover {
+    overflow-x: visible !important;
+  }
+  .overflow-x-lg-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-x-lg-scroll-hover:hover {
+    overflow-x: scroll !important;
   }
   .z-lg-0 {
     z-index: 0 !important;
@@ -16108,6 +16236,30 @@ fieldset:disabled .btn {
   .text-xl-center {
     text-align: center !important;
   }
+  .overflow-x-xl-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-x-xl-auto-hover:hover {
+    overflow-x: auto !important;
+  }
+  .overflow-x-xl-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-xl-hidden-hover:hover {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-xl-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-x-xl-visible-hover:hover {
+    overflow-x: visible !important;
+  }
+  .overflow-x-xl-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-x-xl-scroll-hover:hover {
+    overflow-x: scroll !important;
+  }
   .z-xl-0 {
     z-index: 0 !important;
   }
@@ -17285,6 +17437,30 @@ fieldset:disabled .btn {
   }
   .text-xxl-center {
     text-align: center !important;
+  }
+  .overflow-x-xxl-auto {
+    overflow-x: auto !important;
+  }
+  .overflow-x-xxl-auto-hover:hover {
+    overflow-x: auto !important;
+  }
+  .overflow-x-xxl-hidden {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-xxl-hidden-hover:hover {
+    overflow-x: hidden !important;
+  }
+  .overflow-x-xxl-visible {
+    overflow-x: visible !important;
+  }
+  .overflow-x-xxl-visible-hover:hover {
+    overflow-x: visible !important;
+  }
+  .overflow-x-xxl-scroll {
+    overflow-x: scroll !important;
+  }
+  .overflow-x-xxl-scroll-hover:hover {
+    overflow-x: scroll !important;
   }
   .z-xxl-0 {
     z-index: 0 !important;
