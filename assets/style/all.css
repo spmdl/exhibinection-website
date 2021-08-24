@@ -18177,4 +18177,22 @@ body {
      object-fit: cover;
 }
 
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #E9ECEF;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #E31277;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #880b47;
+}
+
 /*# sourceMappingURL=all.css.map */
