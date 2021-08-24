@@ -1,27 +1,22 @@
 // Color system
 
-$gray-100: #EFEFEF;
-$gray-200: #CED4DA;
-$gray-300: #6C757D;
-$gray-400: #212529;
+$gray-100: #E9ECEF;
+$gray-200: #373A3C;
 
 $grays: (
   "100": $gray-100,
   "200": $gray-200,
-  "300": $gray-300,
-  "400": $gray-400,
 ) !default;
 
 // Color system
 $primary:   #630834;
 $secondary: #E31277;
 $danger:    #190014CC;
-$info:      #ffffff;
 $black:     #000000;
 $white:     #ffffff; 
 $gray:      #707070;
 $light:       $gray-100 !default;
-$dark:        $gray-400 !default;
+$dark:        $gray-200 !default;
 
 $theme-colors: (
   "primary":    $primary,
@@ -107,7 +102,7 @@ $grid-breakpoints: (
 $container-padding-x:               .9375rem !default;
 
 // Navbar
-$navbar-padding-y:                  .8125rem !default;
+$navbar-padding-y:                  .625rem !default;
 $navbar-nav-link-padding-x:         1rem !default;
 $navbar-brand-padding-y:            0 !default;
 $nav-link-padding-y:                .875rem !default;
@@ -116,9 +111,15 @@ $navbar-light-color:                $gray !default;
 
 // Button
 $btn-padding-y:                     .625rem !default;
-// $btn-padding-x:                     2rem !default;
 $btn-hover-bg-shade-amount:         30% !default;
 $btn-transition:                    color .22s ease-in-out, background-color .22s ease-in-out, border-color .22s ease-in-out, box-shadow .22s ease-in-out !default;
+
+// btn close 
+$btn-close-padding-x:               .5rem !default;
+$btn-close-padding-y:               .5rem !default;
+$btn-close-opacity:                 1 !default;
+$btn-close-hover-opacity:           .5 !default;
+$btn-close-focus-opacity:           0 !default;
 
 // Input
 $input-border-color:                $white !default;
@@ -131,3 +132,13 @@ $card-title-spacer-y:               .25rem !default;
 // Badge
 $badge-border-radius:               100% !default;
 $badge-font-weight:                 400 !default;
+$badge-padding-y:                   .125em !default;
+$badge-padding-x:                   .4em !default;
+// 0.125em 0.4em
+
+// Offcanvas
+$offcanvas-padding-y:               1rem !default;
+$offcanvas-padding-x:               1rem !default;
+$offcanvas-bg-color:                $black !default;
+$offcanvas-color:                   $black !default;
+$offcanvas-horizontal-width:        540px !default;
