@@ -14,7 +14,7 @@
 
   <body>
     <header class="position-sticky top-0 bg-white z-500">
-  <nav class="navbar navbar-expand-lg navbar-light nav border">
+  <nav class="navbar navbar-expand-lg navbar-light border py-lg-s">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,6 +58,105 @@
   </div>
 </div>
 
+<div class="offcanvas offcanvas-end mt-xl mt-lg-8" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header pb-0 px-sm-4 pt-sm-4">
+    <h2 class="offcanvas-title text-white fs-6 fw-bold" id="offcanvasExampleLabel">Cart List</h5>
+  </div>
+  <ul class="offcanvas-body pb-0 px-sm-4 pt-sm-4">
+    <li class="card mb-xs">
+      <div class="card-title">
+      <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="card-body px-2 px-sm-4 pt-0 pb-2 pb-sm-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex">
+            <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="台味設計展" class="img h-s w-s me-2">
+            <div>
+              <h3 class="fs-2 fw-bold mb-xxs">
+                2020 台味設計展
+              </h3>
+              <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+              <p class="text-dark mb-s">
+                全票
+              </p>
+              <span class="fw-bold fs-3">NT$350</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-sm-row w-xs w-sm-25">
+            <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">remove</i></button>
+            <input type="text" class="form-control text-center fs-3 p-0" placeholder="01" aria-label="Recipient's username with two button addons">
+            <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">add</i></button>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="card mb-xs">
+      <div class="card-title">
+      <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="card-body px-2 px-sm-4 pt-0 pb-2 pb-sm-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex">
+            <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="台味設計展" class="img h-s w-s me-2">
+            <div>
+              <h3 class="fs-2 fw-bold mb-xxs">
+                No.22 線上設計展
+              </h3>
+              <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+              <p class="text-dark mb-s">
+                全票
+              </p>
+              <span class="fw-bold fs-3">NT$350</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-sm-row w-xs w-sm-25">
+            <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">remove</i></button>
+            <input type="text" class="form-control text-center fs-3 p-0" placeholder="01" aria-label="Recipient's username with two button addons">
+            <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">add</i></button>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="card mb-xs">
+      <div class="card-title">
+      <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="card-body px-2 px-sm-4 pt-0 pb-2 pb-sm-4">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex">
+            <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="img h-s w-s me-2">
+            <div>
+              <h3 class="fs-2 fw-bold mb-xxs">
+                高雄設計節
+              </h3>
+              <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+              <p class="text-dark mb-s">
+                全票
+              </p>
+              <span class="fw-bold fs-3">NT$350</span>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-sm-row w-xs w-sm-25">
+            <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">remove</i></button>
+            <input type="text" class="form-control text-center fs-3 p-0" placeholder="01" aria-label="Recipient's username with two button addons">
+            <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">add</i></button>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <!-- offcanvas-footer -->
+  <div class="d-flex justify-content-between align-items-center p-4">
+    <p class="text-white fs-m fw-medium">
+      <span class="me-3">小計</span>
+      NT$1050
+    </p>
+    <a href="checkout.html" class="bg-white rounded"><button class="btn btn-outline-primary border-white px-3">前往結帳</button></a>
+  </div>
+</div>
 <nav class="d-flex justify-content-center border">
   <ul class="nav overflow-x-scroll flex-nowrap text-nowrap">
     <li class="nav-item">
@@ -100,7 +199,7 @@
       <li class="card bg-light border-0 mb-2 mb-md-m py-3 py-sm-0 px-2 px-sm-0">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="2020 台味設計展" href="#" class="img-fluid h-s mb-1 mb-sm-0">
+            <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="2020 台味設計展" href="#" class="img-fluid h-l mb-1 mb-sm-0">
           </div>
           <div class="col-md-8">
             <div class="card-body d-flex justify-content-between h-100 px-0 px-sm-3 py-0 py-lg-5 py-sm-3">
@@ -138,7 +237,7 @@
       <li class="card bg-light border-0 mb-2 mb-md-m py-3 py-sm-0 px-2 px-sm-0">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="No.22 線上設計展" href="#" class="img-fluid h-s mb-1 mb-sm-0">
+            <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="No.22 線上設計展" href="#" class="img-fluid h-l mb-1 mb-sm-0">
           </div>
           <div class="col-md-8">
             <div class="card-body d-flex justify-content-between h-100 px-0 px-sm-3 py-0 py-lg-5 py-sm-3">
@@ -176,7 +275,7 @@
       <li class="card bg-light border-0 mb-2 mb-md-m py-3 py-sm-0 px-2 px-sm-0">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="高雄設計節" href="#" class="img-fluid h-s mb-1 mb-sm-0">
+            <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="高雄設計節" href="#" class="img-fluid h-l mb-1 mb-sm-0">
           </div>
           <div class="col-md-8">
             <div class="card-body d-flex justify-content-between h-100 px-0 px-sm-3 py-0 py-lg-5 py-sm-3">
@@ -252,21 +351,21 @@
     </h2>
     <ul class="row">
       <li class="col-md-4 offset-lg-1 card border-0 mb-2 mb-md-0">
-        <img src="./assets/images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg" alt="No.23 線上設計展" class="card-img-top h-s mb-xxs">
+        <img src="./assets/images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg" alt="No.23 線上設計展" class="card-img-top h-l mb-xxs">
         <div class="card-body p-0">
           <h3 class="card-title fs-3 fw-bold">No.23 3D積木展</h3>
           <span class="card-text fs-3">$350</span>
         </
       </li>
       <li class="col-md-4 card border-0 mb-2 mb-md-0">
-        <img src="./assets/images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg" alt="No.24 線上設計展" class="card-img-top h-s mb-xxs">
+        <img src="./assets/images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg" alt="No.24 線上設計展" class="card-img-top h-l mb-xxs">
         <div class="card-body p-0">
           <h3 class="card-title fs-3 fw-bold">No.24 現代藝術展</h3>
           <span class="card-text fs-3">$550</span>
         </
       </li>
       <li class="col-md-4 col-lg-3 card border-0 mb-2 mb-md-0">
-        <img src="./assets/images/museums-victoria-kiDwVL_5ZBY-unsplash.jpg" alt="No.25 線上設計展" class="card-img-top h-s mb-xxs">
+        <img src="./assets/images/museums-victoria-kiDwVL_5ZBY-unsplash.jpg" alt="No.25 線上設計展" class="card-img-top h-l mb-xxs">
         <div class="card-body p-0">
           <h3 class="card-title fs-3 fw-bold">No.25 寫實攝影展</h3>
           <span class="card-text fs-3">免費</span>
