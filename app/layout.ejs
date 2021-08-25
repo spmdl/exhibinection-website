@@ -15,7 +15,7 @@
   <body>
     <%- include('header.ejs') %>
     <%- contents %>
-    <footer>
+    <footer<% if(current !== 'index' && current !== 'design' && current !== 'detail'){ %> hidden <% } %> >
       <div class="footer-banner d-flex flex-column justify-content-end pb-ml">
         <div class="container">
           <h2 class="text-white fs-4 fs-sm-6 fw-bold mb-m mb-sm-xs">想收到展覽的最新消息嗎？<br>快訂閱我們！</h2>
