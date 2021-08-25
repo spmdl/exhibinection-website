@@ -18110,6 +18110,39 @@ fieldset:disabled .btn {
   }
 }
 
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #E9ECEF;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #E31277;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #880b47;
+}
+
+.header-banner {
+  background: url(../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg) no-repeat center/cover;
+  height: 480px;
+}
+
+.footer-banner {
+  background: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg) no-repeat center/cover;
+  height: 480px;
+}
+
+.live-review-banner {
+  background: url(../images/people2.png) no-repeat center/cover;
+  height: 482px;
+}
+
 *,
 *::before,
 *::after {
@@ -18146,58 +18179,6 @@ p {
 body {
   font-family: "Roboto", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: normal;
-}
-
-.header-banner {
-  display: table;
-  height: 480px;
-  width: 100%;
-  position: relative;
-  color: #fff;
-  background: url(../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.footer-banner {
-  background: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg) no-repeat center/cover;
-  height: 480px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.live-review-banner {
-  background: url(../images/people2.png) no-repeat center/cover;
-}
-
-.img-m {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.scrollbar::-webkit-scrollbar {
-  width: 4px;
-  border-radius: 10px;
-}
-
-.scrollbar::-webkit-scrollbar-track {
-  background: #E9ECEF;
-}
-
-.scrollbar::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #E31277;
-}
-
-.scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #880b47;
 }
 
 /*# sourceMappingURL=all.css.map */
