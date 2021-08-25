@@ -18149,8 +18149,13 @@ body {
 }
 
 .header-banner {
-  background: url(../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg) no-repeat center/cover;
+  display: table;
   height: 480px;
+  width: 100%;
+  position: relative;
+  color: #fff;
+  background: url(../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .footer-banner {
