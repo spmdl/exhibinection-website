@@ -35,6 +35,7 @@ $utilities: (
     values: (100: 100%)
   ),
   "height": (
+    responsive: true,
     property: height,
     class: h,
     values: (
@@ -43,12 +44,25 @@ $utilities: (
       75: 75%,
       100: 100%,
       auto: auto,
-      s: 120px,
-      l: 350px
+      xs: 120px,
+      s: 256px,
+      m: 350px,
+      l: 400px,
+      xl: 559px
+      
     )
   ),
   "outline": (
     property: outline,
+    values: (
+      null: $border-width solid $border-color,
+      0: 0,
+    )
+  ),
+  "border-end": (
+    responsive: true,
+    property: border-right,
+    class: border-end,
     values: (
       null: $border-width solid $border-color,
       0: 0,
@@ -73,6 +87,14 @@ $utilities: (
     property: font-size,
     class: fs,
     values: $font-sizes
+  ),
+  "text-indent": (
+    property: text-indent,
+    class: text-indent,
+    values: (
+      1: 16px,
+      2: 32px
+    )
   ),
   "overflow-x": (
     responsive: true,
