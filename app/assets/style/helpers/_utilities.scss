@@ -47,6 +47,13 @@ $utilities: (
       l: 350px
     )
   ),
+  "outline": (
+    property: outline,
+    values: (
+      null: $border-width solid $border-color,
+      0: 0,
+    )
+  ),
   "font-weight": (
     responsive: true,
     property: font-weight,
