@@ -6412,13 +6412,13 @@ fieldset:disabled .btn {
 
 @-webkit-keyframes progress-bar-stripes {
   0% {
-    background-position-x: 1rem;
+    background-position-x: 2px;
   }
 }
 
 @keyframes progress-bar-stripes {
   0% {
-    background-position-x: 1rem;
+    background-position-x: 2px;
   }
 }
 
@@ -6426,7 +6426,7 @@ fieldset:disabled .btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 1rem;
+  height: 2px;
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #373A3C;
@@ -6448,7 +6448,7 @@ fieldset:disabled .btn {
   color: #ffffff;
   text-align: center;
   white-space: nowrap;
-  background-color: #630834;
+  background-color: #E31277;
   -webkit-transition: width 0.6s ease;
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
@@ -6465,7 +6465,7 @@ fieldset:disabled .btn {
 .progress-bar-striped {
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-size: 1rem 1rem;
+  background-size: 2px 2px;
 }
 
 .progress-bar-animated {
@@ -8637,6 +8637,10 @@ fieldset:disabled .btn {
   height: auto !important;
 }
 
+.h-xxs {
+  height: 84px !important;
+}
+
 .h-xs {
   height: 120px !important;
 }
@@ -10571,6 +10575,9 @@ fieldset:disabled .btn {
   .h-s-auto {
     height: auto !important;
   }
+  .h-s-xxs {
+    height: 84px !important;
+  }
   .h-s-xs {
     height: 120px !important;
   }
@@ -11881,6 +11888,9 @@ fieldset:disabled .btn {
   }
   .h-sm-auto {
     height: auto !important;
+  }
+  .h-sm-xxs {
+    height: 84px !important;
   }
   .h-sm-xs {
     height: 120px !important;
@@ -13193,6 +13203,9 @@ fieldset:disabled .btn {
   .h-md-auto {
     height: auto !important;
   }
+  .h-md-xxs {
+    height: 84px !important;
+  }
   .h-md-xs {
     height: 120px !important;
   }
@@ -14503,6 +14516,9 @@ fieldset:disabled .btn {
   }
   .h-lg-auto {
     height: auto !important;
+  }
+  .h-lg-xxs {
+    height: 84px !important;
   }
   .h-lg-xs {
     height: 120px !important;
@@ -15815,6 +15831,9 @@ fieldset:disabled .btn {
   .h-xl-auto {
     height: auto !important;
   }
+  .h-xl-xxs {
+    height: 84px !important;
+  }
   .h-xl-xs {
     height: 120px !important;
   }
@@ -17126,6 +17145,9 @@ fieldset:disabled .btn {
   .h-xxl-auto {
     height: auto !important;
   }
+  .h-xxl-xxs {
+    height: 84px !important;
+  }
   .h-xxl-xs {
     height: 120px !important;
   }
@@ -18429,6 +18451,40 @@ p {
 body {
   font-family: "Roboto", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: normal;
+}
+
+.circle {
+  position: relative;
+  font-weight: 300;
+}
+
+.circle::after {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  top: -0.3rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 1px solid #E31277;
+  background-color: #E31277;
+}
+
+.circle.active {
+  font-weight: 500;
+}
+
+.circle.active ~ .circle::after {
+  background-color: #ffffff;
+}
+
+.h-cart {
+  min-height: calc(100vh - 132px);
 }
 
 /*# sourceMappingURL=all.css.map */
