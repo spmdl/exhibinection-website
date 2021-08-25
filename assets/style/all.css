@@ -18360,6 +18360,7 @@ fieldset:disabled .btn {
 }
 
 .scrollbar::-webkit-scrollbar-track {
+  border-radius: 10px;
   background: #E9ECEF;
 }
 
