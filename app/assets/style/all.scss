@@ -6,5 +6,9 @@
 @import "./helpers/utilities";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// components
+@import "./components/scrollbar";
+@import "./helpers/background-image";
+
 @import "./helpers/base";
 @import './layout/index';
