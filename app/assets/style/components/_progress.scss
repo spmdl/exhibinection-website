@@ -1,0 +1,27 @@
+.circle {
+  position: relative;
+  font-weight: $font-weight-light;
+  &::after{
+    content: '';
+    top: 0;
+    left: 0;
+    // display: block;
+    position: absolute;
+    top: -0.3rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 1px solid $secondary;
+    background-color: $secondary;
+  }
+  &.active {
+    font-weight: 500;
+  }
+  &.active ~ & {
+    &::after {
+      background-color: $white;
+    }
+  }
+}

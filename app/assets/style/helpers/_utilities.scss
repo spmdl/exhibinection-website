@@ -50,7 +50,15 @@ $utilities: (
       m: 350px,
       l: 400px,
       xl: 559px
-      
+    )
+  ),
+  "min-viewport-height": (
+    responsive: true,
+    property: min-height,
+    class: min-vh,
+    values: (
+      cart: calc(100vh - 132px),
+      100: 100vh
     )
   ),
   "outline": (

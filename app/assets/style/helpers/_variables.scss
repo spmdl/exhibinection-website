@@ -2,10 +2,12 @@
 
 $gray-100: #E9ECEF;
 $gray-200: #373A3C;
+$gray-300: #CED4DA;
 
 $grays: (
   "100": $gray-100,
   "200": $gray-200,
+  "300": $gray-300,
 ) !default;
 
 // Color system
@@ -125,7 +127,7 @@ $btn-close-hover-opacity:           .5 !default;
 $btn-close-focus-opacity:           0 !default;
 
 // Input
-$input-border-color:                $white !default;
+$input-border-color:                $gray-300 !default;
 $input-border-width:                1px !default;
 $input-placeholder-color:           $gray !default;
 

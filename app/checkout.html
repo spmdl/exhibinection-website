@@ -4,97 +4,225 @@ layout: ./app/layout.ejs
 engine: ejs
 current: checkout
 ---
-
 <main class="container">
-  <div class="h-cart d-flex flex-column justify-content-between pt-3 pb-5">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="progress m-xxs">
-          <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="row">
+    <div class="col-md-8 order-2 order-md-1 min-vh-md-cart d-flex flex-column justify-content-md-between pt-0 pt-md-3 pb-5">
+      <div>
+        <div class="d-none d-md-block">
+          <div class="progress m-xxs">
+            <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <ul class="d-flex justify-content-around mb-m mb-md-3">
+            <li class="circle active">確認訂單</li>
+            <li class="circle">填寫訂購資訊</li>
+            <li class="circle">填寫付款資訊</li>
+            <li class="circle">完成訂購</li>
+          </ul>
         </div>
-        <ul class="d-flex justify-content-around mb-3">
-          <li class="circle">確認訂單</li>
-          <li class="circle active">填寫訂購資訊</li>
-          <li class="circle">填寫付款資訊</li>
-          <li class="circle">完成訂購</li>
-        </ul>
-        <ul>
+        <ul class="mb-6 mb-md-0">
           <li class="card mb-m">
-            <div class="row g-0">
+            <div class="row">
               <div class="col-6 col-md-3">
-                <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="台味設計展" class="img-fluid min-vh-s">
+                <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
               </div>
               <div class="col-6 col-md-9">
                 <div class="card-body p-0">
-                  <div class="d-flex justify-content-between">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
                     <div>
                       <h2 class="fs-2 fw-bold mb-xxs">2020 台味設計展</h2>
                       <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
-                      <p class="text-gray">全票</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="d-block fs-3 fw-bold">NT$350</span>
-                      <div class="d-flex">
-                        <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">remove</i></button>
-                        <input type="text" class="form-control text-center fs-3 fw-bold p-0" placeholder="00" aria-label="01" value="01">
-                        <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">add</i></button>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
                       </div>
-                      <button type="button" class="btn-close text-reset" aria-label="Close"></button>
-                    </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
                   </div>
                 </div>
               </div>
             </div>
           </li>
           <li class="card mb-m">
-            <div class="row g-0">
+            <div class="row">
               <div class="col-6 col-md-3">
-                <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="台味設計展" class="img-fluid min-vh-s">
+                <img src="./assets/images/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
               </div>
               <div class="col-6 col-md-9">
                 <div class="card-body p-0">
-                  <div class="d-flex justify-content-between">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
                     <div>
                       <h2 class="fs-2 fw-bold mb-xxs">No.22 線上設計展</h2>
                       <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
-                      <p class="text-gray">全票</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="d-block fs-3 fw-bold">NT$350</span>
-                      <div class="d-flex">
-                        <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">remove</i></button>
-                        <input type="text" class="form-control text-center fs-3 fw-bold p-0" placeholder="00" aria-label="01" value="01">
-                        <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">add</i></button>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
                       </div>
-                      <button type="button" class="btn-close text-reset" aria-label="Close"></button>
-                    </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
                   </div>
                 </div>
               </div>
             </div>
           </li>
           <li class="card mb-m">
-            <div class="row g-0">
+            <div class="row">
               <div class="col-6 col-md-3">
-                <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="img-fluid min-vh-s">
+                <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
               </div>
               <div class="col-6 col-md-9">
                 <div class="card-body p-0">
-                  <div class="d-flex justify-content-between">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
                     <div>
                       <h2 class="fs-2 fw-bold mb-xxs">高雄設計節</h2>
                       <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
-                      <p class="text-gray">全票</p>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <span class="d-block fs-3 fw-bold">NT$350</span>
-                      <div class="d-flex">
-                        <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">remove</i></button>
-                        <input type="text" class="form-control text-center fs-3 fw-bold p-0" placeholder="00" aria-label="01" value="01">
-                        <button class="btn btn-outline-dark border-0 p-0" type="button"><i class="material-icons d-block">add</i></button>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
                       </div>
-                      <button type="button" class="btn-close text-reset" aria-label="Close"></button>
-                    </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card mb-m">
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
+              </div>
+              <div class="col-6 col-md-9">
+                <div class="card-body p-0">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
+                    <div>
+                      <h2 class="fs-2 fw-bold mb-xxs">高雄設計節</h2>
+                      <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
+                      </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card mb-m">
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
+              </div>
+              <div class="col-6 col-md-9">
+                <div class="card-body p-0">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
+                    <div>
+                      <h2 class="fs-2 fw-bold mb-xxs">高雄設計節</h2>
+                      <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
+                      </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card mb-m">
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
+              </div>
+              <div class="col-6 col-md-9">
+                <div class="card-body p-0">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
+                    <div>
+                      <h2 class="fs-2 fw-bold mb-xxs">高雄設計節</h2>
+                      <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
+                      </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card mb-m">
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
+              </div>
+              <div class="col-6 col-md-9">
+                <div class="card-body p-0">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
+                    <div>
+                      <h2 class="fs-2 fw-bold mb-xxs">高雄設計節</h2>
+                      <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
+                      </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card mb-m">
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <img src="./assets/images/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="台味設計展" class="w-100 h-xxs">
+              </div>
+              <div class="col-6 col-md-9">
+                <div class="card-body p-0">
+                  <div class="d-md-flex justify-content-md-between align-items-center">
+                    <div>
+                      <h2 class="fs-2 fw-bold mb-xxs">高雄設計節</h2>
+                      <p class="fw-medium mb-xxs">01 JUN — 31 OCT</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <p class="text-gray">
+                          全票
+                          <span class="d-md-none text-black fw-bold fs-3">1</span>
+                        </p>
+                        <p class="d-block d-md-none fw-bold fs-3">NT$350</p>
+                      </div>
+                    </div>                      
+                    <p class="d-none d-md-block fw-bold fs-3">NT$350</p>
+                    <p class="d-none d-md-block fw-bold fs-3">1</p>
                   </div>
                 </div>
               </div>
@@ -102,15 +230,64 @@ current: checkout
           </li>
         </ul>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-6 col-md-4 offset-md-8 mt-xxs">
-        <div class="d-flex justify-content-between align-items-center mb-s">
-          <span class="fs-3 fw-medium">小計</span>
-          <span class="fs-3 fw-medium">NT$1050</span>
+      <div class="row">
+        <div class="col-6 col-md-3">
+          <a href="cart.html" class="bg-white rounded"><button class="btn btn-outline-primary w-100">返回</button></a>
         </div>
-        <a href="checkout.html" class="bg-white rounded"><button class="btn btn-secondary w-100">下一步</button></a>
+        <div class="col-6 d-md-none">
+          <a href="payment.html" class="bg-white rounded"><button class="btn btn-secondary w-100">下一步</button></a>
+        </div>
       </div>
     </div>
+    <form action="" class="col-md-4 order-1 order-md-2 min-vh-md-cart d-flex flex-column justify-content-md-between pt-3 pb-0 pb-md-5">
+      <div class="d-block d-md-none">
+        <div class="progress m-xxs">
+          <div class="progress-bar w-100" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <ul class="d-flex justify-content-around mb-m mb-md-3">
+          <li class="circle active">確認訂單</li>
+          <li class="circle">填寫訂購資訊</li>
+          <li class="circle">填寫付款資訊</li>
+          <li class="circle">完成訂購</li>
+        </ul>
+      </div>
+      <fieldset class="mb-4 mb-md-0">
+        <legend class="fs-3 fw-medium mb-2 mb-md-m">訂購人資訊</legend>
+        <div class="mb-m">
+          <label for="userEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" name="userEmail" id="userEmail" placeholder="example@gmail.com">
+        </div>
+        <div class="mb-m">
+          <label for="userName" class="form-label">姓名</label>
+          <input type="text" class="form-control" name="userName" id="userName" placeholder="請輸入姓名">
+        </div>
+        <div class="mb-m">
+          <label for="userPhone" class="form-label">聯絡電話</label>
+          <input type="tel" class="form-control" name="userPhone" id="userPhone" placeholder="請輸入電話">
+        </div>
+        <div class="mb-m">
+          <label for="coulBo" class="form-label">優惠碼</label>
+          <input type="text" class="form-control bg-gray-100 mb-xxs" name="coulBo" id="coulBo" value="TG87526" placeholder="">
+          <p class="text-end text-primary fs-s">優惠碼已生效</p>
+        </div>
+      </fieldset>
+      <fieldset>
+        <ul class="mb-3 mb-md-xs">
+          <li class="d-flex justify-content-between align-items-center mb-xxs">
+            <span class="fw-medium">小計</span>
+            <span class="fw-light">NT$1050</span>
+          </li>
+          <li class="d-flex justify-content-between align-items-center mb-xxs">
+            <span class="fw-medium">折扣</span>
+            <span class="fw-light">-NT$50</span>
+          </li>
+          <li class="d-flex justify-content-between align-items-center mb-xxs">
+            <span class="fs-3 fw-medium">總金額</span>
+            <span class="fs-3 fw-medium">NT$1000</span>
+          </li>
+        </ul>
+        <a href="payment.html" class="d-none d-md-block bg-white rounded"><button class="btn btn-secondary w-100">下一步</button></a>
+      </fieldset>
+    </form>
   </div>
 </main>
