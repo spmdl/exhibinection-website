@@ -10250,7 +10250,7 @@ fieldset:disabled .btn {
 }
 
 .lh-sm {
-  line-height: 1.25 !important;
+  line-height: 1.875 !important;
 }
 
 .lh-base {
@@ -18981,6 +18981,18 @@ p {
 body {
   font-family: "Roboto", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: normal;
+}
+
+.img-auto-scale {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.object-fit-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*# sourceMappingURL=all.css.map */
