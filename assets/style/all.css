@@ -10165,6 +10165,10 @@ fieldset:disabled .btn {
   font-family: var(--bs-font-monospace) !important;
 }
 
+.fs-xs {
+  font-size: 0.5rem !important;
+}
+
 .fs-s {
   font-size: 0.875rem !important;
 }
@@ -11835,6 +11839,9 @@ fieldset:disabled .btn {
   .ps-s-9 {
     padding-left: 6rem !important;
   }
+  .fs-s-xs {
+    font-size: 0.5rem !important;
+  }
   .fs-s-s {
     font-size: 0.875rem !important;
   }
@@ -13206,6 +13213,9 @@ fieldset:disabled .btn {
   }
   .ps-sm-9 {
     padding-left: 6rem !important;
+  }
+  .fs-sm-xs {
+    font-size: 0.5rem !important;
   }
   .fs-sm-s {
     font-size: 0.875rem !important;
@@ -14579,6 +14589,9 @@ fieldset:disabled .btn {
   .ps-md-9 {
     padding-left: 6rem !important;
   }
+  .fs-md-xs {
+    font-size: 0.5rem !important;
+  }
   .fs-md-s {
     font-size: 0.875rem !important;
   }
@@ -15950,6 +15963,9 @@ fieldset:disabled .btn {
   }
   .ps-lg-9 {
     padding-left: 6rem !important;
+  }
+  .fs-lg-xs {
+    font-size: 0.5rem !important;
   }
   .fs-lg-s {
     font-size: 0.875rem !important;
@@ -17323,6 +17339,9 @@ fieldset:disabled .btn {
   .ps-xl-9 {
     padding-left: 6rem !important;
   }
+  .fs-xl-xs {
+    font-size: 0.5rem !important;
+  }
   .fs-xl-s {
     font-size: 0.875rem !important;
   }
@@ -18694,6 +18713,9 @@ fieldset:disabled .btn {
   }
   .ps-xxl-9 {
     padding-left: 6rem !important;
+  }
+  .fs-xxl-xs {
+    font-size: 0.5rem !important;
   }
   .fs-xxl-s {
     font-size: 0.875rem !important;
