@@ -207,12 +207,12 @@ sup {
 }
 
 a {
-  color: #000000;
+  color: #707070;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: #4e4e4e;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4754,12 +4754,12 @@ fieldset:disabled .btn {
 
 .btn-link {
   font-weight: 400;
-  color: #000000;
+  color: #707070;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: black;
+  color: #4e4e4e;
 }
 
 .btn-link:disabled, .btn-link.disabled {
@@ -5317,7 +5317,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: black;
+  color: #4e4e4e;
 }
 
 .nav-link.disabled {
@@ -6242,7 +6242,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #000000;
+  color: #707070;
   background-color: #ffffff;
   border: 1px solid #CED4DA;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -6262,14 +6262,14 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: black;
+  color: #4e4e4e;
   background-color: #373A3C;
   border-color: #CED4DA;
 }
 
 .page-link:focus {
   z-index: 3;
-  color: black;
+  color: #4e4e4e;
   background-color: #373A3C;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(99, 8, 52, 0.25);
@@ -8139,7 +8139,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary:hover, .link-primary:focus {
-  color: #4f062a;
+  color: #450624;
 }
 
 .link-secondary {
@@ -8147,7 +8147,7 @@ fieldset:disabled .btn {
 }
 
 .link-secondary:hover, .link-secondary:focus {
-  color: #b60e5f;
+  color: #9f0d53;
 }
 
 .link-gray {
@@ -8155,7 +8155,7 @@ fieldset:disabled .btn {
 }
 
 .link-gray:hover, .link-gray:focus {
-  color: #5a5a5a;
+  color: #4e4e4e;
 }
 
 .link-danger {
@@ -8163,7 +8163,7 @@ fieldset:disabled .btn {
 }
 
 .link-danger:hover, .link-danger:focus {
-  color: rgba(18, 0, 15, 0.84);
+  color: rgba(15, 0, 12, 0.86);
 }
 
 .link-light {
@@ -8171,7 +8171,7 @@ fieldset:disabled .btn {
 }
 
 .link-light:hover, .link-light:focus {
-  color: #edf0f2;
+  color: #f0f2f4;
 }
 
 .link-dark {
@@ -8179,7 +8179,7 @@ fieldset:disabled .btn {
 }
 
 .link-dark:hover, .link-dark:focus {
-  color: #2c2e30;
+  color: #27292a;
 }
 
 .link-white {
@@ -10577,15 +10577,15 @@ fieldset:disabled .btn {
   z-index: "auto" !important;
 }
 
-.background-scroll {
+.bga-scroll {
   background-attachment: scroll !important;
 }
 
-.background-fixed {
+.bga-fixed {
   background-attachment: fixed !important;
 }
 
-.background-local {
+.bga-local {
   background-attachment: local !important;
 }
 
@@ -11953,13 +11953,13 @@ fieldset:disabled .btn {
   .z-s-auto {
     z-index: "auto" !important;
   }
-  .background-s-scroll {
+  .bga-s-scroll {
     background-attachment: scroll !important;
   }
-  .background-s-fixed {
+  .bga-s-fixed {
     background-attachment: fixed !important;
   }
-  .background-s-local {
+  .bga-s-local {
     background-attachment: local !important;
   }
 }
@@ -13328,13 +13328,13 @@ fieldset:disabled .btn {
   .z-sm-auto {
     z-index: "auto" !important;
   }
-  .background-sm-scroll {
+  .bga-sm-scroll {
     background-attachment: scroll !important;
   }
-  .background-sm-fixed {
+  .bga-sm-fixed {
     background-attachment: fixed !important;
   }
-  .background-sm-local {
+  .bga-sm-local {
     background-attachment: local !important;
   }
 }
@@ -14703,13 +14703,13 @@ fieldset:disabled .btn {
   .z-md-auto {
     z-index: "auto" !important;
   }
-  .background-md-scroll {
+  .bga-md-scroll {
     background-attachment: scroll !important;
   }
-  .background-md-fixed {
+  .bga-md-fixed {
     background-attachment: fixed !important;
   }
-  .background-md-local {
+  .bga-md-local {
     background-attachment: local !important;
   }
 }
@@ -16078,13 +16078,13 @@ fieldset:disabled .btn {
   .z-lg-auto {
     z-index: "auto" !important;
   }
-  .background-lg-scroll {
+  .bga-lg-scroll {
     background-attachment: scroll !important;
   }
-  .background-lg-fixed {
+  .bga-lg-fixed {
     background-attachment: fixed !important;
   }
-  .background-lg-local {
+  .bga-lg-local {
     background-attachment: local !important;
   }
 }
@@ -17453,13 +17453,13 @@ fieldset:disabled .btn {
   .z-xl-auto {
     z-index: "auto" !important;
   }
-  .background-xl-scroll {
+  .bga-xl-scroll {
     background-attachment: scroll !important;
   }
-  .background-xl-fixed {
+  .bga-xl-fixed {
     background-attachment: fixed !important;
   }
-  .background-xl-local {
+  .bga-xl-local {
     background-attachment: local !important;
   }
 }
@@ -18828,13 +18828,13 @@ fieldset:disabled .btn {
   .z-xxl-auto {
     z-index: "auto" !important;
   }
-  .background-xxl-scroll {
+  .bga-xxl-scroll {
     background-attachment: scroll !important;
   }
-  .background-xxl-fixed {
+  .bga-xxl-fixed {
     background-attachment: fixed !important;
   }
-  .background-xxl-local {
+  .bga-xxl-local {
     background-attachment: local !important;
   }
 }
@@ -18993,6 +18993,61 @@ body {
 .object-fit-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.line-left-hover {
+  position: relative;
+}
+
+.line-left-hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 1px;
+  border-bottom: 4px solid transparent;
+}
+
+.line-left-hover:hover {
+  color: #630834;
+}
+
+.line-left-hover:hover::before {
+  border-color: #630834;
+}
+
+.line-left-hover.active {
+  color: #630834;
+}
+
+.line-left-hover.active::before {
+  border-left: 4px solid #630834;
+}
+
+.underline-hover {
+  position: relative;
+}
+
+.underline-hover::after {
+  content: "";
+  border-bottom: 1px solid #E31277;
+  position: absolute;
+  display: block;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  right: 0;
+  width: 0;
+}
+
+.underline-hover:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.underline-hover.active {
+  padding-bottom: 0;
+  border-bottom: 1px solid #E31277;
 }
 
 /*# sourceMappingURL=all.css.map */
