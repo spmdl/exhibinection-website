@@ -142,6 +142,7 @@
     <a href="./cart.html" class="bg-white rounded"><button class="btn btn-outline-primary border-white px-3">前往結帳</button></a>
   </div>
 </div>
+<% if(current === 'index' || current === 'design' || current === 'detail'){ %>
 <nav class="d-flex justify-content-center <%- current == 'index'? 'outline' : '' %>">
   <ul class="nav overflow-x-scroll flex-nowrap text-nowrap">
     <li class="nav-item">
@@ -173,3 +174,4 @@
     </li>
   </ul>
 </nav>
+<% } %>
