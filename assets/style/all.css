@@ -212,7 +212,7 @@ a {
 }
 
 a:hover {
-  color: #4e4e4e;
+  color: #630834;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4759,7 +4759,7 @@ fieldset:disabled .btn {
 }
 
 .btn-link:hover {
-  color: #4e4e4e;
+  color: #630834;
 }
 
 .btn-link:disabled, .btn-link.disabled {
@@ -5317,7 +5317,7 @@ fieldset:disabled .btn {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #4e4e4e;
+  color: #630834;
 }
 
 .nav-link.disabled {
@@ -6262,14 +6262,14 @@ fieldset:disabled .btn {
 
 .page-link:hover {
   z-index: 2;
-  color: #4e4e4e;
+  color: #630834;
   background-color: #373A3C;
   border-color: #CED4DA;
 }
 
 .page-link:focus {
   z-index: 3;
-  color: #4e4e4e;
+  color: #630834;
   background-color: #373A3C;
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(99, 8, 52, 0.25);
@@ -18960,6 +18960,19 @@ fieldset:disabled .btn {
 .underline-hover:hover, .underline-hover:active, .underline-hover:focus, .underline-hover.active {
   background-position: left 40px;
   background-size: 100% 1px;
+}
+
+.cartIcon-hover {
+  color: #000;
+}
+
+.logo-hover:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 *,
