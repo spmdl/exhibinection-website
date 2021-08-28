@@ -10589,6 +10589,31 @@ fieldset:disabled .btn {
   background-attachment: local !important;
 }
 
+.object-fit-fill {
+  -o-object-fit: fill !important;
+     object-fit: fill !important;
+}
+
+.object-fit-contain {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
+.object-fit-cover {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.object-fit-none {
+  -o-object-fit: none !important;
+     object-fit: none !important;
+}
+
+.object-fit-scale-down {
+  -o-object-fit: scale-down !important;
+     object-fit: scale-down !important;
+}
+
 @media (min-width: 375px) {
   .float-s-start {
     float: left !important;
@@ -11961,6 +11986,26 @@ fieldset:disabled .btn {
   }
   .bga-s-local {
     background-attachment: local !important;
+  }
+  .object-fit-s-fill {
+    -o-object-fit: fill !important;
+       object-fit: fill !important;
+  }
+  .object-fit-s-contain {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .object-fit-s-cover {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .object-fit-s-none {
+    -o-object-fit: none !important;
+       object-fit: none !important;
+  }
+  .object-fit-s-scale-down {
+    -o-object-fit: scale-down !important;
+       object-fit: scale-down !important;
   }
 }
 
@@ -13337,6 +13382,26 @@ fieldset:disabled .btn {
   .bga-sm-local {
     background-attachment: local !important;
   }
+  .object-fit-sm-fill {
+    -o-object-fit: fill !important;
+       object-fit: fill !important;
+  }
+  .object-fit-sm-contain {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .object-fit-sm-cover {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .object-fit-sm-none {
+    -o-object-fit: none !important;
+       object-fit: none !important;
+  }
+  .object-fit-sm-scale-down {
+    -o-object-fit: scale-down !important;
+       object-fit: scale-down !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -14711,6 +14776,26 @@ fieldset:disabled .btn {
   }
   .bga-md-local {
     background-attachment: local !important;
+  }
+  .object-fit-md-fill {
+    -o-object-fit: fill !important;
+       object-fit: fill !important;
+  }
+  .object-fit-md-contain {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .object-fit-md-cover {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .object-fit-md-none {
+    -o-object-fit: none !important;
+       object-fit: none !important;
+  }
+  .object-fit-md-scale-down {
+    -o-object-fit: scale-down !important;
+       object-fit: scale-down !important;
   }
 }
 
@@ -16087,6 +16172,26 @@ fieldset:disabled .btn {
   .bga-lg-local {
     background-attachment: local !important;
   }
+  .object-fit-lg-fill {
+    -o-object-fit: fill !important;
+       object-fit: fill !important;
+  }
+  .object-fit-lg-contain {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .object-fit-lg-cover {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .object-fit-lg-none {
+    -o-object-fit: none !important;
+       object-fit: none !important;
+  }
+  .object-fit-lg-scale-down {
+    -o-object-fit: scale-down !important;
+       object-fit: scale-down !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -17461,6 +17566,26 @@ fieldset:disabled .btn {
   }
   .bga-xl-local {
     background-attachment: local !important;
+  }
+  .object-fit-xl-fill {
+    -o-object-fit: fill !important;
+       object-fit: fill !important;
+  }
+  .object-fit-xl-contain {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .object-fit-xl-cover {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .object-fit-xl-none {
+    -o-object-fit: none !important;
+       object-fit: none !important;
+  }
+  .object-fit-xl-scale-down {
+    -o-object-fit: scale-down !important;
+       object-fit: scale-down !important;
   }
 }
 
@@ -18837,6 +18962,26 @@ fieldset:disabled .btn {
   .bga-xxl-local {
     background-attachment: local !important;
   }
+  .object-fit-xxl-fill {
+    -o-object-fit: fill !important;
+       object-fit: fill !important;
+  }
+  .object-fit-xxl-contain {
+    -o-object-fit: contain !important;
+       object-fit: contain !important;
+  }
+  .object-fit-xxl-cover {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+  .object-fit-xxl-none {
+    -o-object-fit: none !important;
+       object-fit: none !important;
+  }
+  .object-fit-xxl-scale-down {
+    -o-object-fit: scale-down !important;
+       object-fit: scale-down !important;
+  }
 }
 
 @media print {
@@ -18913,6 +19058,11 @@ fieldset:disabled .btn {
 .detail-banner {
   background: url(../images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg) no-repeat center/cover;
   height: 256px;
+}
+
+.bg-cover-center {
+  background-size: cover;
+  background-position: center;
 }
 
 .circle {
@@ -19011,18 +19161,6 @@ p {
 body {
   font-family: "Roboto", "Noto Sans TC", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: normal;
-}
-
-.img-auto-scale {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.object-fit-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 /*# sourceMappingURL=all.css.map */
