@@ -34,3 +34,12 @@
     background-size: 100% 1px;
   }
 }
+
+.cartIcon-hover {
+  color: #000;
+}
+
+.logo-hover:hover{
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
