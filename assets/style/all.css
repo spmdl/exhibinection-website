@@ -18945,6 +18945,23 @@ fieldset:disabled .btn {
   background-color: #ffffff;
 }
 
+.underline-hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E31277), to(#E31277));
+  background-image: -o-linear-gradient(#E31277, #E31277);
+  background-image: linear-gradient(#E31277, #E31277);
+  background-position: right 40px;
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.3s;
+  -o-transition: background-size 0.3s;
+  transition: background-size 0.3s;
+}
+
+.underline-hover:hover, .underline-hover:active, .underline-hover:focus, .underline-hover.active {
+  background-position: left 40px;
+  background-size: 100% 1px;
+}
+
 *,
 *::before,
 *::after {
@@ -18993,61 +19010,6 @@ body {
 .object-fit-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.line-left-hover {
-  position: relative;
-}
-
-.line-left-hover::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 16px;
-  height: 1px;
-  border-bottom: 4px solid transparent;
-}
-
-.line-left-hover:hover {
-  color: #630834;
-}
-
-.line-left-hover:hover::before {
-  border-color: #630834;
-}
-
-.line-left-hover.active {
-  color: #630834;
-}
-
-.line-left-hover.active::before {
-  border-left: 4px solid #630834;
-}
-
-.underline-hover {
-  position: relative;
-}
-
-.underline-hover::after {
-  content: "";
-  border-bottom: 1px solid #E31277;
-  position: absolute;
-  display: block;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-  right: 0;
-  width: 0;
-}
-
-.underline-hover:hover::after {
-  left: 0;
-  width: 100%;
-}
-
-.underline-hover.active {
-  padding-bottom: 0;
-  border-bottom: 1px solid #E31277;
 }
 
 /*# sourceMappingURL=all.css.map */
