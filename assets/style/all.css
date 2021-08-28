@@ -8489,6 +8489,10 @@ fieldset:disabled .btn {
   top: 100% !important;
 }
 
+.top-s {
+  top: 2px !important;
+}
+
 .bottom-0 {
   bottom: 0 !important;
 }
@@ -8499,6 +8503,10 @@ fieldset:disabled .btn {
 
 .bottom-100 {
   bottom: 100% !important;
+}
+
+.bottom-s {
+  bottom: 2px !important;
 }
 
 .start-0 {
@@ -8513,6 +8521,10 @@ fieldset:disabled .btn {
   left: 100% !important;
 }
 
+.start-s {
+  left: 2px !important;
+}
+
 .end-0 {
   right: 0 !important;
 }
@@ -8523,6 +8535,10 @@ fieldset:disabled .btn {
 
 .end-100 {
   right: 100% !important;
+}
+
+.end-s {
+  right: 2px !important;
 }
 
 .translate-middle {
@@ -19114,6 +19130,10 @@ fieldset:disabled .btn {
 
 .cartIcon-hover {
   color: #000;
+}
+
+.cartIcon-hoverhover {
+  color: #630834;
 }
 
 .logo-hover:hover {
