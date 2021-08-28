@@ -37,6 +37,9 @@
 
 .cartIcon-hover {
   color: #000;
+  &hover {
+    color: $primary;
+  }
 }
 
 .logo-hover:hover{
