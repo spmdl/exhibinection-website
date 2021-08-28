@@ -10593,15 +10593,15 @@ fieldset:disabled .btn {
   z-index: "auto" !important;
 }
 
-.bga-scroll {
+.background-scroll {
   background-attachment: scroll !important;
 }
 
-.bga-fixed {
+.background-fixed {
   background-attachment: fixed !important;
 }
 
-.bga-local {
+.background-local {
   background-attachment: local !important;
 }
 
@@ -11994,13 +11994,13 @@ fieldset:disabled .btn {
   .z-s-auto {
     z-index: "auto" !important;
   }
-  .bga-s-scroll {
+  .background-s-scroll {
     background-attachment: scroll !important;
   }
-  .bga-s-fixed {
+  .background-s-fixed {
     background-attachment: fixed !important;
   }
-  .bga-s-local {
+  .background-s-local {
     background-attachment: local !important;
   }
   .object-fit-s-fill {
@@ -13389,13 +13389,13 @@ fieldset:disabled .btn {
   .z-sm-auto {
     z-index: "auto" !important;
   }
-  .bga-sm-scroll {
+  .background-sm-scroll {
     background-attachment: scroll !important;
   }
-  .bga-sm-fixed {
+  .background-sm-fixed {
     background-attachment: fixed !important;
   }
-  .bga-sm-local {
+  .background-sm-local {
     background-attachment: local !important;
   }
   .object-fit-sm-fill {
@@ -14784,13 +14784,13 @@ fieldset:disabled .btn {
   .z-md-auto {
     z-index: "auto" !important;
   }
-  .bga-md-scroll {
+  .background-md-scroll {
     background-attachment: scroll !important;
   }
-  .bga-md-fixed {
+  .background-md-fixed {
     background-attachment: fixed !important;
   }
-  .bga-md-local {
+  .background-md-local {
     background-attachment: local !important;
   }
   .object-fit-md-fill {
@@ -16179,13 +16179,13 @@ fieldset:disabled .btn {
   .z-lg-auto {
     z-index: "auto" !important;
   }
-  .bga-lg-scroll {
+  .background-lg-scroll {
     background-attachment: scroll !important;
   }
-  .bga-lg-fixed {
+  .background-lg-fixed {
     background-attachment: fixed !important;
   }
-  .bga-lg-local {
+  .background-lg-local {
     background-attachment: local !important;
   }
   .object-fit-lg-fill {
@@ -17574,13 +17574,13 @@ fieldset:disabled .btn {
   .z-xl-auto {
     z-index: "auto" !important;
   }
-  .bga-xl-scroll {
+  .background-xl-scroll {
     background-attachment: scroll !important;
   }
-  .bga-xl-fixed {
+  .background-xl-fixed {
     background-attachment: fixed !important;
   }
-  .bga-xl-local {
+  .background-xl-local {
     background-attachment: local !important;
   }
   .object-fit-xl-fill {
@@ -18969,13 +18969,13 @@ fieldset:disabled .btn {
   .z-xxl-auto {
     z-index: "auto" !important;
   }
-  .bga-xxl-scroll {
+  .background-xxl-scroll {
     background-attachment: scroll !important;
   }
-  .bga-xxl-fixed {
+  .background-xxl-fixed {
     background-attachment: fixed !important;
   }
-  .bga-xxl-local {
+  .background-xxl-local {
     background-attachment: local !important;
   }
   .object-fit-xxl-fill {
