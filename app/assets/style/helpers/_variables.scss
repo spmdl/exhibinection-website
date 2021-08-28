@@ -85,8 +85,9 @@ $z-index: (
 ) !default;
 
 // link
-$link-color:                        $black !default;
-$link-decoration:                   none !default;
+$link-color:                        $gray !default;
+$link-decoration:                   none !default;               
+$link-shade-percentage:             30% !default;
 
 // h1~h6
 $headings-font-weight:              400 !default;
@@ -117,7 +118,6 @@ $navbar-padding-y:                  .625rem !default;
 $navbar-nav-link-padding-x:         1rem !default;
 $navbar-brand-padding-y:            0 !default;
 $nav-link-padding-y:                .875rem !default;
-$nav-link-color:                    $gray !default;
 $navbar-light-color:                $gray !default;
 
 // Button

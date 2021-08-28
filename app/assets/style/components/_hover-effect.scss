@@ -1,0 +1,36 @@
+// .underline-hover {
+//   position: relative;
+//   &::after {
+//     content: "";
+//     border-bottom: 1px solid $secondary;
+//     position: absolute;
+//     display: block;
+//     transition: all .3s;
+//     right: 0;
+//     // bottom: 0;
+//     width: 0;
+//   }
+//   &:hover::after {
+//     left: 0;
+//     width: 100%;
+//   }
+//   &.active{
+//     padding-bottom: 0;
+//     border-bottom: 1px solid $secondary;
+//   }
+// }
+
+.underline-hover {
+  background-image: linear-gradient($secondary, $secondary);
+  background-position: right 40px;
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s;
+  &:hover,
+  &:active,
+  &:focus,
+  &.active {
+    background-position: left 40px;
+    background-size: 100% 1px;
+  }
+}
