@@ -8764,7 +8764,7 @@ fieldset:disabled .btn {
 }
 
 .min-vh-cart-sticky {
-  min-height: calc(100vh - 80px -162px) !important;
+  min-height: calc(100vh - 162px) !important;
 }
 
 .min-vh-100 {
@@ -10792,7 +10792,7 @@ fieldset:disabled .btn {
     min-height: calc(100vh - 80px) !important;
   }
   .min-vh-s-cart-sticky {
-    min-height: calc(100vh - 80px -162px) !important;
+    min-height: calc(100vh - 162px) !important;
   }
   .min-vh-s-100 {
     min-height: 100vh !important;
@@ -12190,7 +12190,7 @@ fieldset:disabled .btn {
     min-height: calc(100vh - 80px) !important;
   }
   .min-vh-sm-cart-sticky {
-    min-height: calc(100vh - 80px -162px) !important;
+    min-height: calc(100vh - 162px) !important;
   }
   .min-vh-sm-100 {
     min-height: 100vh !important;
@@ -13588,7 +13588,7 @@ fieldset:disabled .btn {
     min-height: calc(100vh - 80px) !important;
   }
   .min-vh-md-cart-sticky {
-    min-height: calc(100vh - 80px -162px) !important;
+    min-height: calc(100vh - 162px) !important;
   }
   .min-vh-md-100 {
     min-height: 100vh !important;
@@ -14986,7 +14986,7 @@ fieldset:disabled .btn {
     min-height: calc(100vh - 80px) !important;
   }
   .min-vh-lg-cart-sticky {
-    min-height: calc(100vh - 80px -162px) !important;
+    min-height: calc(100vh - 162px) !important;
   }
   .min-vh-lg-100 {
     min-height: 100vh !important;
@@ -16384,7 +16384,7 @@ fieldset:disabled .btn {
     min-height: calc(100vh - 80px) !important;
   }
   .min-vh-xl-cart-sticky {
-    min-height: calc(100vh - 80px -162px) !important;
+    min-height: calc(100vh - 162px) !important;
   }
   .min-vh-xl-100 {
     min-height: 100vh !important;
@@ -17782,7 +17782,7 @@ fieldset:disabled .btn {
     min-height: calc(100vh - 80px) !important;
   }
   .min-vh-xxl-cart-sticky {
-    min-height: calc(100vh - 80px -162px) !important;
+    min-height: calc(100vh - 162px) !important;
   }
   .min-vh-xxl-100 {
     min-height: 100vh !important;
