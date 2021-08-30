@@ -4,6 +4,11 @@ $utilities: (
     property: position,
     values: static relative absolute fixed sticky
   ),
+  "top": (
+    responsive: true,
+    property: top,
+    values: $position-values
+  ),
   "translate-middle": (
     responsive: true,
     property: transform,
@@ -59,6 +64,7 @@ $utilities: (
     values: (
       cart: calc(100vh - 80px),
       cart-sticky: calc(100vh - 162px),
+      cart-sticky-expand: calc(100vh - 142px),
       100: 100vh
     )
   ),
