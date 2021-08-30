@@ -1,15 +1,16 @@
 "use strict";
 
-(function () {
-  var orderInfo = document.querySelector('.order-info');
-  var formWidth = document.querySelector('form');
-
+var orderInfo = document.querySelector('.order-info-js');
+var formWidth = document.querySelector('form');
+window.addEventListener('resize', function () {
   if (orderInfo) {
-    console.log(formWidth.offsetWidth);
-    console.log(orderInfo.offsetWidth);
-    formWidth.style.offsetWidth = orderInfo.offsetWidth;
+    formWidth.style.width = orderInfo.offsetWidth + "px";
   }
-})(); // $(function() {
-//   console.log('Hello Bootstrap5');
-// });
+});
+
+(function () {
+  if (orderInfo) {
+    formWidth.style.width = orderInfo.offsetWidth + "px";
+  }
+})();
 //# sourceMappingURL=all.js.map
