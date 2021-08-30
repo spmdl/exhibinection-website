@@ -8493,6 +8493,10 @@ fieldset:disabled .btn {
   top: 2px !important;
 }
 
+.top-m {
+  top: 162px !important;
+}
+
 .bottom-0 {
   bottom: 0 !important;
 }
@@ -8507,6 +8511,10 @@ fieldset:disabled .btn {
 
 .bottom-s {
   bottom: 2px !important;
+}
+
+.bottom-m {
+  bottom: 162px !important;
 }
 
 .start-0 {
@@ -8525,6 +8533,10 @@ fieldset:disabled .btn {
   left: 2px !important;
 }
 
+.start-m {
+  left: 162px !important;
+}
+
 .end-0 {
   right: 0 !important;
 }
@@ -8539,6 +8551,10 @@ fieldset:disabled .btn {
 
 .end-s {
   right: 2px !important;
+}
+
+.end-m {
+  right: 162px !important;
 }
 
 .translate-middle {
@@ -8745,6 +8761,10 @@ fieldset:disabled .btn {
 
 .min-vh-cart {
   min-height: calc(100vh - 80px) !important;
+}
+
+.min-vh-cart-sticky {
+  min-height: calc(100vh - 80px -162px) !important;
 }
 
 .min-vh-100 {
@@ -10771,6 +10791,9 @@ fieldset:disabled .btn {
   .min-vh-s-cart {
     min-height: calc(100vh - 80px) !important;
   }
+  .min-vh-s-cart-sticky {
+    min-height: calc(100vh - 80px -162px) !important;
+  }
   .min-vh-s-100 {
     min-height: 100vh !important;
   }
@@ -12165,6 +12188,9 @@ fieldset:disabled .btn {
   }
   .min-vh-sm-cart {
     min-height: calc(100vh - 80px) !important;
+  }
+  .min-vh-sm-cart-sticky {
+    min-height: calc(100vh - 80px -162px) !important;
   }
   .min-vh-sm-100 {
     min-height: 100vh !important;
@@ -13561,6 +13587,9 @@ fieldset:disabled .btn {
   .min-vh-md-cart {
     min-height: calc(100vh - 80px) !important;
   }
+  .min-vh-md-cart-sticky {
+    min-height: calc(100vh - 80px -162px) !important;
+  }
   .min-vh-md-100 {
     min-height: 100vh !important;
   }
@@ -14955,6 +14984,9 @@ fieldset:disabled .btn {
   }
   .min-vh-lg-cart {
     min-height: calc(100vh - 80px) !important;
+  }
+  .min-vh-lg-cart-sticky {
+    min-height: calc(100vh - 80px -162px) !important;
   }
   .min-vh-lg-100 {
     min-height: 100vh !important;
@@ -16351,6 +16383,9 @@ fieldset:disabled .btn {
   .min-vh-xl-cart {
     min-height: calc(100vh - 80px) !important;
   }
+  .min-vh-xl-cart-sticky {
+    min-height: calc(100vh - 80px -162px) !important;
+  }
   .min-vh-xl-100 {
     min-height: 100vh !important;
   }
@@ -17745,6 +17780,9 @@ fieldset:disabled .btn {
   }
   .min-vh-xxl-cart {
     min-height: calc(100vh - 80px) !important;
+  }
+  .min-vh-xxl-cart-sticky {
+    min-height: calc(100vh - 80px -162px) !important;
   }
   .min-vh-xxl-100 {
     min-height: 100vh !important;
