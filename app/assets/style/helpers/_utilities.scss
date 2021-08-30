@@ -58,6 +58,7 @@ $utilities: (
     class: min-vh,
     values: (
       cart: calc(100vh - 80px),
+      cart-sticky: calc(100vh - 80px -162px),
       100: 100vh
     )
   ),
